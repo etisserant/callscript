@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_text_settings">Settings</string>
+	<string name="app_description">Invoke script instead of passing phone call</string>
+	<string name="app_helptext">
+		Instead of calling number itself, apps execute :\n\n
+		sh /sdcard/callscript.sh $number
+		\n\nPrefix number with \"**\" to bypass.
+	</string>
+	<string name="app_label">CallScript</string>
+	<string name="no_props">No CallScript results found</string>
+	<string name="toast_progress">Launching CallScript ...</string>
+	<string name="toast_error">Error launching CallScript</string>
+	<string name="toast_done">CallScript exited</string>
+	<string name="notify_callscript_enabled">CallScript enabled</string>
+	<string name="notify_callscript_disabled">CallScript disabled</string>
+	<string name="notify_callscript_offline">CallScript offline</string>
+	<string name="notify_summary">Select to change CallScript settings</string>
+	<string name="pref_callscript_enable">Enable CallScript</string>
+	<string name="pref_callscript_mobile">Enable on UMTS/EDGE</string>
+	<string name="pref_callscript_mobile_summary">Allow CallScript on 3G mobile networks</string>
+</resources>
