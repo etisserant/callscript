@@ -10,7 +10,7 @@ import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.preference.PreferenceManager;
-import android.telephony.TelephonyManager;
+//import android.telephony.TelephonyManager;
 
 public class CallScriptUtil {
 
@@ -37,7 +37,8 @@ public class CallScriptUtil {
 				/* if mobile is active and EDGE or better, we're good */
 				ni = mCmgr.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
 				if (ni != null && ni.isConnected()) {
-					mOnline = (ni.getSubtype() >= TelephonyManager.NETWORK_TYPE_EDGE);
+					//mOnline = (ni.getSubtype() >= TelephonyManager.NETWORK_TYPE_EDGE);
+					mOnline = true;
 				}
 			}
 		}
